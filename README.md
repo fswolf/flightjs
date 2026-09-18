@@ -7,7 +7,7 @@ A small, modular JavaScript front end built to sit on top of [FlightPHP](https:/
 - **Lazy by default.** Each URL loads only the page module it needs, and that page imports only the components and tools it uses.
 - **API-first.** Pages talk to Flight's JSON routes through a thin fetch wrapper. HTML stays in Flight's views; JS fills in the dynamic parts.
 
-The `components/` and `pages/` in this repo come from a working storefront ([iB Store](https://store.imbored.me)) and are there as **examples** of the pattern. Keep the core and tools, replace the examples with your own.
+The `components/` and `pages/` in this repo are there as **examples** of the pattern. Keep the core and tools, replace the examples with your own.
 
 ## How it maps to FlightPHP
 
