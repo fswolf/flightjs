@@ -1,6 +1,6 @@
 # FlightJS
 
-A small, modular JavaScript front end built to sit on top of [FlightPHP](https://docs.flightphp.com). It mirrors the way a Flight app is organised — routes, pages, reusable pieces — so the browser side of your project reads the same way as the PHP side.
+A small, modular JavaScript front end built to sit on top of [FlightPHP](https://docs.flightphp.com). It mirrors the way a Flight app is organised. Routes, pages, reusable pieces, so the browser side of your project reads the same way as the PHP side.
 
 - **No build step.** Plain ES modules loaded straight from `assets/js`. Edit, refresh, done.
 - **No dependencies.** Nothing to install; the whole thing is a handful of small files.
