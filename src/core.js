@@ -1,7 +1,7 @@
 import GlobalUI from "./global_ui.js";
 
 export class Core {
-    path = window.location.pathname;
+    path = window.location.pathname.replace(/(.)\/+$/, '$1');
     global_ui;
 
     constructor(properties = {}) {
